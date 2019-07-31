@@ -1,0 +1,21 @@
+#USING API VERSION 0.1
+
+#Will change from game to game. Can be found in last part of game url. EX: 6417174179872767
+GAME_NUMBER:6417174179872767
+
+#API code for game will change every game. Can be found at bottom of Options tab in game. EX: 5abNcW
+API_CODE:5abNcW
+
+#Email address that notification will be coming from. Only tested from gmail address.
+FROM_EMAIL_USERNAME:example@gmail.com
+FROM_MAIL_PASSWORD:
+
+#How often script will check game for update in minutes. Anything lower then 5 minutes will be defaulted back to 5
+#Minutes. Please be considerate and do not abuse this.
+REFRESH_TIME_MINUTES:20
+
+#Email address to send to notifications to.
+TO_EMAIL_ADDRESS:example@gmail.com
+
+#to avoid notifications for allies, include alias names below. Separate with ;. EX: player1;player2
+PLAYERS_TO_IGNORE:player1;player2
